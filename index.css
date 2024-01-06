@@ -1,0 +1,184 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  
+   background:linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-position: center center;
+    background-image: url("https://www.scdn.co/i/free/bubbles-mobile.svg");
+    background-repeat: no-repeat;
+  
+
+}
+.logo{
+    fill: white;
+    height: 50px;
+    width: 150px;
+   
+}
+.nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.nav div a{
+    text-decoration: none;
+    color: white;
+}
+.navitem{
+    position: absolute;
+    left: 55%;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.top{
+    width: 100;
+    height: 60px;
+    background-color: #1d75de;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.top a,.top span{
+    color: white;
+    padding: 40px;
+}
+.phone img{
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border: 2px solid white;
+    padding: 60px 10px 0 10px;
+    border-radius: 35px 35px 0px 0px;
+    background-color: white;
+
+}
+.phone p{
+    color: black;
+    
+    font-size: 150px;
+    margin-top: 10px;
+    margin-left:530px;
+    z-index: 1000;
+   
+}
+.content{
+    color: white;
+   
+    width: 600px;
+    margin-left: 550px;
+    margin-top: -150px;
+    font-size: 30px;
+}
+.content button{
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+  
+}
+.para{
+    border: 2px solid white;
+    background-color: white;
+    z-index: 2;
+    margin-top: 70px;
+    position: fixed;
+    width: 100%;
+    padding-left: 30px;
+    border: 1px solid black;
+
+}
+.para p a{
+    color: black;
+}
+.container{
+    
+    margin-top: 235px;
+    height: 590px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.container .one h1{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 110%;
+    left: 35%;
+}
+   
+.inner{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.single{
+    
+    height: 500px;
+    width: 100%;
+}
+.single h1{
+    color: white;
+   padding-top: 10%;
+    padding-left: 35%;
+    font-size: 50px;
+    
+}
+.got{
+    height: 600px;
+    width: 100%;
+    border: 2px solid white ;
+    background-color: white;
+}
+.got h1{
+    color: black;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.l{
+    line-height: 100px;
+    list-style: none;
+    padding-left: 100px;
+}
+.reday{
+    height: 450px;
+    width: 100%;
+    
+    
+}
+.reday h1{
+    color: white;
+    font-size: 80px;
+    padding-left: 300px;
+    padding-top: 100px;
+}
+.reday button{
+    padding: 15PX;
+    width: 250PX;
+    border-radius: 25PX;
+    border: none;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.logo2 svg{
+    height: 150px;
+    width: 150px;
+    color: white;
+    fill: white;
+}
+.footer{
+    border: 2px solid black;
+    height: 500px;
+    background-color: black;
+}
